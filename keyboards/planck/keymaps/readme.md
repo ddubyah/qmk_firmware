@@ -21,3 +21,4 @@ When adding your keymap to this list, keep it organised alphabetically (select l
 
 * **default** default Planck layout
 * **cbbrowne** cbbrowne's Planck layout
+* **ddub_frogpad** DDubyahs Frogpad, lefty confih
