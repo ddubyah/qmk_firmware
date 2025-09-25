@@ -66,3 +66,4 @@ This is a QMK (Quantum Mechanical Keyboard) firmware repository with custom lily
 - **Layer limits**: VIA standard supports 4 layers by default, custom builds can extend to 5+
 - **Controller detection**: RP2040 boards show as "RPI-RP2" drive when in bootloader mode
 - **Split keyboard**: Both halves need flashing for RP2040 builds, only master for AVR builds
+- ONLY focus on editing files in keyboards/lily58/keymaps/frogger_rgb_via/ - thats the focus of our project. Don't edit any basefiles unless you check with the user
