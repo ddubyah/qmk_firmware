@@ -4,6 +4,7 @@
 *~
 .DS_Store
 ._*
+.serena/
 
 # Merge files
 *.orig

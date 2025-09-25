@@ -1,0 +1,46 @@
+#pragma once
+
+/* Select hand configuration */
+#define MASTER_LEFT
+
+#define TAPPING_FORCE_HOLD
+#define TAPPING_TERM 100
+
+// VIA configuration
+#define DYNAMIC_KEYMAP_LAYER_COUNT 5
+
+// RGB Matrix Core Configuration
+#define RGB_MATRIX_LED_COUNT 29
+#define RGB_MATRIX_MAXIMUM_BRIGHTNESS 150  // Limit for power/heat
+#define RGB_MATRIX_DEFAULT_MODE RGB_MATRIX_CYCLE_ALL
+#define RGB_MATRIX_SLEEP  // Turn off when idle
+#define RGB_MATRIX_KEYPRESSES  // React to keypresses
+#define RGB_MATRIX_KEYRELEASES  // React to key releases
+
+// Split configuration for left half only
+#define RGB_MATRIX_SPLIT { 29, 0 }
+
+// Curated Effect Selection (15 effects for balanced memory usage)
+#define ENABLE_RGB_MATRIX_BREATHING
+#define ENABLE_RGB_MATRIX_CYCLE_ALL
+#define ENABLE_RGB_MATRIX_CYCLE_LEFT_RIGHT
+#define ENABLE_RGB_MATRIX_CYCLE_UP_DOWN
+#define ENABLE_RGB_MATRIX_RAINBOW_MOVING_CHEVRON
+#define ENABLE_RGB_MATRIX_CYCLE_OUT_IN
+#define ENABLE_RGB_MATRIX_CYCLE_PINWHEEL
+#define ENABLE_RGB_MATRIX_RAINBOW_BEACON
+#define ENABLE_RGB_MATRIX_TYPING_HEATMAP
+#define ENABLE_RGB_MATRIX_DIGITAL_RAIN
+#define ENABLE_RGB_MATRIX_SOLID_REACTIVE_SIMPLE
+#define ENABLE_RGB_MATRIX_SOLID_REACTIVE_MULTIWIDE
+#define ENABLE_RGB_MATRIX_SPLASH
+#define ENABLE_RGB_MATRIX_SOLID_SPLASH
+#define ENABLE_RGB_MATRIX_STARLIGHT
+
+// OLED Configuration
+#define OLED_DISPLAY_128X32
+#define SPLIT_OLED_ENABLE
+
+// VIA RGB Matrix Configuration
+#define VIA_QMK_RGB_MATRIX_ENABLE
+#define VIA_CUSTOM_LIGHTING_ENABLE
