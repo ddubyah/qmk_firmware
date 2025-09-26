@@ -4,6 +4,7 @@
 *~
 .DS_Store
 ._*
+.serena/
 
 # Merge files
 *.orig
@@ -121,3 +122,5 @@ compile_commands.json
 via*.json
 /keyboards/**/keymaps/via/*
 /keyboards/**/keymaps/vial/*
+
+.claude/settings.local.json
